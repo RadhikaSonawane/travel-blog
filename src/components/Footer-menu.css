@@ -1,0 +1,47 @@
+.footer-two{
+    background-color: black;
+    color: white;
+}
+
+.footerbar li a {
+  
+        /* Font options */
+       font-family: 'Montserrat-Bold';
+       text-shadow: 2px 2px 4px #000000;
+       font-size:40px;
+       
+        /* Chrome, Safari, Opera */
+       -webkit-animation: rainbow 5s infinite; 
+       
+       /* Internet Explorer */
+       -ms-animation: rainbow 5s infinite;
+       
+       /* Standar Syntax */
+       animation: rainbow 5s infinite; 
+     }
+     
+     /* Chrome, Safari, Opera */
+     @-webkit-keyframes rainbow{
+       0%{color: orange;}	
+       10%{color: purple;}	
+         20%{color: red;}
+       50%{color: coral;}
+       80%{color: DeepPink;}
+
+     }
+     
+     /* Internet Explorer */
+     @-ms-keyframes rainbow{	
+       10%{color: purple;}	
+         20%{color: red;}
+       50%{color: coral;}
+       80%{color: DeepPink;}
+     }
+     
+     /* Standar Syntax */
+     @keyframes rainbow{
+       10%{color: purple;}	
+         20%{color: red;}
+       50%{color: coral;}
+       80%{color: DeepPink;}
+}

@@ -1,0 +1,23 @@
+.contact-title{
+    border: 1px solid #a31b6a;
+    background-color:#f10d46;
+    border-radius: 5px;
+    padding: 17px 10px;
+}
+
+#contact-form{
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 5px;
+    color:rgba(0,0,0,0.56);
+    
+}
+
+.contact-head{
+    background-color: #a31b6a;
+    margin-top: -60px;
+    box-shadow: 0 16px 38px -12px rgba(0,0,0,0.56);
+    color:white;
+}
