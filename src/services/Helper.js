@@ -1,7 +1,7 @@
 const Url = {
     fetchUrl:function(url){
            //let projectsURL = "http://travelguide.test";
-           let projectsURL = "https://blueberrycon.com/";
+           let projectsURL = "http://blueberrycon.com/";
          
         return projectsURL;
     }
